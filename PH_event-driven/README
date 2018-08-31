@@ -1,0 +1,7 @@
+The .c, .h and Makefile contains the event-driven code. It is described in https://github.com/pholme/sir I just extended it with the possibility of having many seed nodes (although for disease simulation it makes no sense).
+
+test*py is my wrappers for your code
+
+gen*py generates networks, I used the same networks for both event-driven and composition rejection. These are in the nwk/ folder (1 for ER (almost no fluctuations for that large ER networks) and 5 power-law networks, and 10^5-10^6 runs of the outbreaks)
+
+(I ran it on a 2017 IMac)
